@@ -20,7 +20,8 @@ print ""
 print "\tSimulador experimental de redes completamente opticas"
 print ""
 n = input("\tEscriba el tamaño de la red: ") # tamaño de la red
-p = 6 #random.randint(5, 10) input("Escriba la cantidad de paquetes: ")
+p = input("\tEscriba el máximo nro de paquetes que se pueden generar: ")
+p = random.randint(1, p)
 I = input("\tEscriba la cantidad de entradas: ") # números de entradas
 e = []
 In=I
