@@ -1,0 +1,1 @@
+Es un simulador que permite ver cual es el comportamiento de los paquetes en una red completamente óptica, se implemento en python.
